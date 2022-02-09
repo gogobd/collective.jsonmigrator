@@ -30,7 +30,7 @@ except ImportError:
 
 _marker = object()
 MEMOIZE_PROPNAME = '_memojito_'
-MAX_TRIES = 10
+MAX_TRIES = 5000
 
 
 def memoize(func):
